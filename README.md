@@ -109,6 +109,45 @@ To run this project, follow these steps:
 streamlit run tasks/task_11/task_11.py
 ```
 
+### Google Cloud Setup
+
+1. Create a Google Cloud Project:
+
+- Go to the Google Cloud Console.
+- Click on the project drop-down and select "New Project".
+- Give your project a name and click "Create".
+
+2. Enable Vertex AI API:
+
+- In the Google Cloud Console, navigate to "APIs & Services" > "Library".
+- Search for "Vertex AI" and click on "Enable".
+- Set up Authentication:
+
+3. Install the Google Cloud SDK.
+
+- Authenticate your SDK installation with your Google account:
+```
+bash
+gcloud auth login
+```
+
+3. Set your project in the SDK:
+```
+bash
+gcloud config set project your-project-id
+```
+
+4. Download Service Account Key:
+
+- Go to "IAM & Admin" > "Service Accounts".
+- Select your project and click "Create Service Account".
+- Create a key and download the JSON file.
+- Set the GOOGLE_APPLICATION_CREDENTIALS environment variable to the path of the JSON file:
+```
+bash
+export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/service-account-file.json"
+```
+
 ## Usage
 
 1. **Upload PDF Documents:**
