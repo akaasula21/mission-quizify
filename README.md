@@ -144,6 +144,7 @@ gcloud config set project your-project-id
 ```
 export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/service-account-file.json"
 ```
+- make sure you add Project ID and location details in the code.
 
 ## Usage
 
