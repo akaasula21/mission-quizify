@@ -127,13 +127,11 @@ streamlit run tasks/task_11/task_11.py
 
 - Authenticate your SDK installation with your Google account:
 ```
-bash
 gcloud auth login
 ```
 
 3. Set your project in the SDK:
 ```
-bash
 gcloud config set project your-project-id
 ```
 
@@ -144,7 +142,6 @@ gcloud config set project your-project-id
 - Create a key and download the JSON file.
 - Set the GOOGLE_APPLICATION_CREDENTIALS environment variable to the path of the JSON file:
 ```
-bash
 export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/service-account-file.json"
 ```
 
