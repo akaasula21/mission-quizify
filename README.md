@@ -24,6 +24,9 @@ Welcome to the **Mission Quizify** project! This repository contains the impleme
 
 Mission Quizify is an interactive application designed to allow users to upload PDF documents, generate quizzes based on the content, and interactively chat with the PDF content. This project leverages Streamlit for the web interface and integrates Langchain and Google Cloud's VertexAI for advanced NLP capabilities.
 
+This project was completed as part of the [Radical AI app](https://ai.radicalai.app/Gemini-Quizify-2024-Feb-28) mission, where participants are challenged to build innovative AI applications.
+
+
 ## Tasks Overview
 
 ### Task 3: PDF Processing
